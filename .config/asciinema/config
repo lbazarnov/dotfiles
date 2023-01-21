@@ -1,0 +1,5 @@
+[record]
+command = /opt/homebrew/bin/fish
+stdin = yes
+env = SHELL,TERM
+quiet = false

@@ -1,0 +1,16 @@
+[character]
+success_symbol = "[➔](bold green) "
+error_symbol = "[✗](bold red) "
+vicmd_symbol = "[V](bold green) "
+
+[python]
+symbol = " "
+
+[package]
+disabled = true
+
+[directory]
+format = "[:$path ]($style)[$read_only]($read_only_style)"
+
+[git_commit]
+commit_hash_length = 4
