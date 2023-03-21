@@ -1,22 +1,27 @@
 [user]
-  name = Lev Bazarnov
-  email = 16255087+lbazarnov@users.noreply.github.com
+	name = Lev Bazarnov
+ 	email = 16255087+lbazarnov@users.noreply.github.com
 
 [alias]
-  st = status
+	st = status
   
 [color]
-  ui = true
+	ui = true
 
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
 
 [init]
-  defaultBranch = master
+	defaultBranch = master
+
+[core]
+	autocrlf = input
+	safecrlf = warn
+	quotepath = off
